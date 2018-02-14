@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        $(document).ready(function() {
+          $("#wowie").addClass("animated bounce");
+        });
+      </script>
 <style>
 body {
   padding-top: 80px;
@@ -37,10 +48,14 @@ background-color: rgba(255, 255, 255, 0.8);
     -1px 1px 0 #000,
     1px 1px 0 #000;  
 }
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+
 </style>
 </head>
 <body>
-
+  
 <head>
 <style>
 h1 {
@@ -68,13 +83,21 @@ h3 {
 </style>
 </head>
 <body>
-
+    <div class="w3-top">
+        <div class="w3-bar w3-red w3-card-2 w3-left-align w3-large">
+          <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+          <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+          <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Profile</a>
+          <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Matches</a>
+          <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Global</a>
+          <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Us</a>
+        </div>
 <h1 class="strokeme">Tighemyshoe's Profile</h1>
 <p class="strokeme">The <em> BEST </em> profile (kind of)
 </body>
 
 <div class="grid-container">
-  <div> <a href="https://memegenerator.net/img/images/600x600/15251543/old-man-shrug.jpg" class=>First Project</a></div>
+  <div> <a href="https://memegenerator.net/img/images/600x600/15251543/old-man-shrug.jpg" id="#wowie">First Project</a></div>
   <div> <a href="https://thesportsphysio.files.wordpress.com/2015/08/wpid-photo-20150804001125738.jpg" class=>Second Project</a></div>
   <div> <a href="https://orig00.deviantart.net/ed27/f/2016/281/5/0/zac_efron_shrugging_transparent_by_scoobymcsnack-dakcgof.png" class=>Third Project</a></div>  
   <div> <a href="http://i1.wp.com/gregmillikan.com/wp-content/uploads/2015/09/man-shrugging-shoulders.jpg" class=>Fourth Project</a></div>
